@@ -1,0 +1,64 @@
+<!--
+코드에서 스타일을 입힐 때
+각각의 코드 안에 Style을 작성해주는 것보다
+<head> 아래에 <Style> 이라는 태그를 만들어서
+    내가 한 번에 꾸미고자 하는 태그 이름과 꾸밀 내용을{}안에 작성해주는 것보다 
+    더 강력하게 작용을 함
+
+tr style="background-color: rosybrown;"
+↑ 처럼 작성한 것보다 ↓ 처럼 작성한 것이 더 우선으로 디자인을 입힘
+<head>
+    <Style>
+        th{}
+-->
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>표실습
+    <title>음식가게</title>
+    <meta charset="UTF-8">
+    <!--변경하고자 하는 스타일이 여러개라면, 작성해서 한번에 적용 가능-->
+    <style>
+        th {
+            background-color: coral;
+        } 
+    </style>
+</head>
+<body>
+    <h1>메뉴판</h1>
+    <!--style에서는 스타일을 하나씩 치장을 하고 치장을 종료할 때; 사용-->
+    text-align : center;는 글자를 가운데로 정렬
+    <table border="1" style="width: 100%; text-align: center; border-collapse:collapse;">
+    <tr style="background-color: rosybrown;">
+        <td style=>음식</td>
+        <td style=>가격</td>
+    </tr>
+    <tr>
+        <td>피자</td>
+        <td>15,000원</td>
+    </tr>
+    <tr>
+        <td>파스타</td>
+        <td>12,000원</td>
+    </tr>
+    <tr>
+        <td>스테이크</td>
+        <td>25,000원</td>
+    </tr>
+    <tr>
+        <td>샐러드</td>
+        <td>8,000원</td>   
+    </tr>
+    <tr>
+        <td>음료수</td>
+        <td>2,000원</td>
+    </tr>
+</table>
+</body>
+</html>
