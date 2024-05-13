@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>동영상 게시판</title>
+   <style>
+    .icon{
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    body{
+
+        background-color: aliceblue;
+    }
+    .컨테이너{
+        margin: 0 auto;
+        background-color: white;
+    }
+    video{
+            display: block;
+           border-radius: 20px;
+           margin: 0 auto;
+        }
+    a{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .버튼꾸미기{
+        display: block;
+        text-align: center;
+    }
+
+    .댓글들{
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: aliceblue;
+        padding: 10px;
+    }
+   </style>
+</head>
+<body>
+    <div class="컨테이너"></div>
+    <h1>동영상 게시판</h1>
+    <video autoplay muted loop>
+        <source src="../비디오들/1971-152947486_small.mp4" type="video/mp4">
+    </video>
+    <h3>댓글(2)</h3>
+    <div class="댓글들">
+        <p>사용자1</p>
+        <p>정말 멋있는 동영상이네요!!&#128513</p>
+    </div>
+    <div class="댓글들">
+        <p>사용자2</p>
+        <p>정말 재밌어요 동영상&#128556</p>
+        <input type="text" placeholder="댓글을 입력하세요.">
+    </div>
+    <div class="버튼꾸미기">
+    <a href="홈페이지메인.html">
+        <img class ="icon" src="../이미지들/lovelyMarley.jpg">
+    </a> 
+    <a href="홈페이지게시판.html">
+        <img class="icon" src="../이미지들/hogam.jpg">
+    </a>
+</div>
+</div>
+</body>
+</html>
