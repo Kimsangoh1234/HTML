@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>홈페이지 게시판</title>
+    <style>
+        body{
+            margin: 0 auto;
+            text-align: center;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        table{
+            margin: 0 auto;/*형식 가운데 정렬*/
+            border-collapse: collapse;
+            text-align: center;
+            width: 70%;
+            border: 2px solid violet;
+        }
+        th,td{
+            border: 2px solid rgb(12, 12, 12);
+            background-color: rgb(200, 255, 0);
+            padding: 10px; /*몸집 키우기 상 하 좌 우*/
+        }
+        th{
+            background-color: rgb(28, 226, 10);/*배경 색생 채우기*/
+                                                 /* 글자색 */
+        }
+    </style>
+</head>
+<body>
+    <h1>홈페이지 게시판입니다.</h1>
+    <table>
+        <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>방문일</th>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>홍길동</td>
+            <td>2024-05-09</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>안영희</td>
+            <td>2024-05-08</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>최영수</td>
+            <td>2024-05-07</td>
+        </tr>
+    </table>
+    <a href="홈페이지메인.html">
+        <img src="메인아이콘.png"/> <br>
+        </a>
+    <!--a 태그 이용해서 동영상으로 이동하기 만들어주기-->
+    <a href="동영상.html">
+        <img src="동영상아이콘.png"> <br>
+    </a>
+</body>
+</html>
